@@ -4,7 +4,7 @@ other.
 '''
 
 def checkPermutation(word1, word2):
-    word1AsList = list(word1)
+    word1AsList = list(word1) #using python power-up
     word2AsList = list(word2)
     word1AsList.sort()
     word2AsList.sort()
